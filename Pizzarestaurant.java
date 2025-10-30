@@ -29,7 +29,7 @@ public class Pizzarestaurant {
         Pizza order3 = new Pizza("Jabbir", "BBQ Chicken");
         Pizza order4 = new Pizza("Bulbul", "Rabbit pizza");
         Pizza order5 = new Pizza("Joanna", "Pineapple pizza");
-        Pizza order6 = new Pizza("Ian", "Pineapple pizza");
+        Pizza order6 = new Pizza("Ian", "Beef Chicken pizza");
 
         System.out.println("Order ID: " + order1.getOrderId() + ", Customer: " + order1.getCustomerName() + ", Pizza: " + order1.getPizzaType());
         System.out.println("Order ID: " + order2.getOrderId() + ", Customer: " + order2.getCustomerName() + ", Pizza: " + order2.getPizzaType());
