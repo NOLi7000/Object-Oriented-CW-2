@@ -34,6 +34,7 @@ public class Pizzarestaurant {
         System.out.println("Order ID: " + order2.getOrderId() + ", Customer: " + order2.getCustomerName() + ", Pizza: " + order2.getPizzaType());
         System.out.println("Order ID: " + order3.getOrderId() + ", Customer: " + order3.getCustomerName() + ", Pizza: " + order3.getPizzaType());
         System.out.println("Order ID: " + order4.getOrderId() + ", Customer: " + order4.getCustomerName() + ", Pizza: " + order4.getPizzaType());
+        System.out.println("Order ID: " + order5.getOrderId() + ", Customer: " + order5.getCustomerName() + ", Pizza: " + order4.getPizzaType());
 
     }
 }
