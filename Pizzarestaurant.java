@@ -20,17 +20,13 @@ class Pizza{
     public String getPizzaType() {
         return pizzaType;
     }
-   
 }
 public class Pizzarestaurant {
-   
-   
-    
     public static void main(String[] args) {
         
         Pizza order1 = new Pizza("Ali", "Pepperoni");
         Pizza order2 = new Pizza("Khalid", "Margherita");
-        Pizza order3 = new Pizza("Jabir", "BBQ Chicken");
+        Pizza order3 = new Pizza("Jabbir", "BBQ Chicken");
 
         System.out.println("Order ID: " + order1.getOrderId() + ", Customer: " + order1.getCustomerName() + ", Pizza: " + order1.getPizzaType());
         System.out.println("Order ID: " + order2.getOrderId() + ", Customer: " + order2.getCustomerName() + ", Pizza: " + order2.getPizzaType());
