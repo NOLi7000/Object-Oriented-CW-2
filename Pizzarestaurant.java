@@ -27,7 +27,7 @@ public class Pizzarestaurant {
         Pizza order1 = new Pizza("Ali", "Pepperoni");
         Pizza order2 = new Pizza("Khalid", "Margherita");
         Pizza order3 = new Pizza("Jabbir", "BBQ Chicken");
-        Pizza order4 = new Pizza("Bulbul", "BBQ Chicken");
+        Pizza order4 = new Pizza("Bulbul", "Rabbit pizza");
 
         System.out.println("Order ID: " + order1.getOrderId() + ", Customer: " + order1.getCustomerName() + ", Pizza: " + order1.getPizzaType());
         System.out.println("Order ID: " + order2.getOrderId() + ", Customer: " + order2.getCustomerName() + ", Pizza: " + order2.getPizzaType());
